@@ -1,0 +1,8 @@
+{% extends 'base.html' %} {% block content%}
+<div class="container show-id" id="{{id}}">
+  <div class="row poster"></div>
+  <div class="row info"></div>
+  </div>
+</div>
+<script src="{{ url_for('static', filename='show.js') }}"></script>
+{%endblock%}

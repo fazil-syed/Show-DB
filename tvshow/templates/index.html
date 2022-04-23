@@ -1,0 +1,23 @@
+{% extends 'base.html' %} {% block header%}
+<h1 class="text-center heading">TV Shows</h1>
+{%endblock%} {% block title%}TV Shows {%endblock%} {% block content%} .
+<div class="container">
+  <form id="searchForm" class="form text-center p-3 row">
+    <div class="col-5 col-md-4 ms-auto">
+      <input
+        type="text"
+        placeholder="Show Title"
+        name="query"
+        class="form-control"
+      />
+    </div>
+    <div class="col-3 col-md-2 me-auto">
+      <input type="submit" value="Search" class="form-control px-2" />
+    </div>
+  </form>
+</div>
+<div class="container">
+  <div class="row" id="tvShows"></div>
+</div>
+<script src="{{ url_for('static', filename='index.js') }}"></script>
+{%endblock%}

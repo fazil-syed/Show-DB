@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap');
+
+main,
+body {
+    background-color: ghostwhite;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar CSS  */
+.nav-collapse-margin {
+    margin-top: 1rem;
+}
+
+.logo {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.nav-main {
+    font-size: 1.5rem;
+}
+
+.nav-items {
+    font-size: 1.1rem;
+
+}
+
+/* Index CSS */
+.image-col {
+    cursor: pointer;
+    box-sizing: border-box;
+
+}
+
+.image {
+    text-align: center;
+    transition: transform .2s ease;
+    border-radius: 2.5rem;
+}
+
+.image:hover {
+    box-shadow: #000;
+    transform: scale(1.03);
+}
+
+.heading {
+    font-size: 3.5rem;
+}
+
+/* Show CSS */
+
+.show-img {
+    width: 550px;
+    height: 700px;
+    border-radius: 2.5rem;
+}
+
+.summary {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.about-section,
+.cast-section {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.casts {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
